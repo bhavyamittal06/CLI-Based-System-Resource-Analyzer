@@ -1,0 +1,58 @@
+{
+  "ok": true,
+  "network": "mainnet",
+  "segwit": false,
+  "txid": "96ba8ee5aff40446da6c54ac26f286cf31c762da93d69a89f5dbb1450e2a7323",
+  "wtxid": null,
+  "version": 2,
+  "locktime": 0,
+  "locktime_type": "none",
+  "locktime_value": 0,
+  "size_bytes": 119,
+  "weight": 476,
+  "vbytes": 119,
+  "total_input_sats": 110000000,
+  "total_output_sats": 110000000,
+  "fee_sats": 0,
+  "fee_rate_sat_vb": 0.0,
+  "rbf_signaling": false,
+  "vin": [
+    {
+      "txid": "f4e3d2c1b0a9f8e7d6c5b4a3f2e1d0c9b8a7f6e5d4c3b2a1f0e9d8c7f6e5b9a3",
+      "vout": 0,
+      "prevout": {
+        "value_sats": 110000000,
+        "script_pubkey_hex": "76a914abcdabcdabcdabcdabcdabcdabcdabcdabcdabcd88ac"
+      },
+      "script_sig_hex": "",
+      "script_asm": "",
+      "witness": [],
+      "sequence": 4294967295,
+      "script_type": "p2pkh",
+      "address": "1GfQw5kzrntkbt3VF64eVrj2N8ERPgpRAQ",
+      "relative_timelock": {
+        "enabled": false
+      }
+    }
+  ],
+  "vout": [
+    {
+      "n": 0,
+      "value_sats": 100000000,
+      "script_pubkey_hex": "76a914deadbeefdeadbeefdeadbeefdeadbeefdeadbeef88ac",
+      "script_asm": "OP_DUP OP_HASH160 OP_PUSHBYTES_20 deadbeefdeadbeefdeadbeefdeadbeefdeadbeef OP_EQUALVERIFY OP_CHECKSIG",
+      "script_type": "p2pkh",
+      "address": "1MJR9fFWBTN6Zh3EGcYMsFnZzqxzKN6rXh"
+    },
+    {
+      "n": 1,
+      "value_sats": 10000000,
+      "script_pubkey_hex": "76a914cafebabecafebabecafebabecafebabecafebabe88ac",
+      "script_asm": "OP_DUP OP_HASH160 OP_PUSHBYTES_20 cafebabecafebabecafebabecafebabecafebabe OP_EQUALVERIFY OP_CHECKSIG",
+      "script_type": "p2pkh",
+      "address": "1KWLefWF3QTreQwdLQY4zkrfiajHdmkR3p"
+    }
+  ],
+  "warnings": [],
+  "segwit_savings": null
+}
